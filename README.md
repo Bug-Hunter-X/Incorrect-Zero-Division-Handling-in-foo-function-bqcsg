@@ -1,0 +1,3 @@
+# JavaScript Zero Division Bug
+
+This repository demonstrates a common error in JavaScript: improper handling of division by zero.  The `foo` function attempts to handle the edge case where either `a` or `b` is zero, but does so incorrectly, returning 1 instead of throwing an error or returning Infinity (as would be mathematically expected).  The solution demonstrates proper error handling and the use of `isFinite()` to prevent unexpected results.
